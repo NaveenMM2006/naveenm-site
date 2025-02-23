@@ -1,0 +1,65 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    background-color:black;
+}
+
+.navbar{
+    background-color: #2A3335;
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 35px;
+    padding: 0 20px;
+}
+#name{ background-color: #2A3335;}
+#home{ background-color: #2A3335;}
+#project{ background-color: #2A3335;}
+#about{ background-color: #2A3335;}
+#contact{ background-color: #2A3335;}
+
+img{
+    height: auto;
+    width: 450px;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+#me{
+    color: antiquewhite;
+    margin-top: 200px;
+    font-size: 90px;
+}
+.outer{
+    display: flex;
+    justify-content: space-evenly;
+}
+#aboutme{color: azure;}
+
+.atrri{
+    display:flex;
+    justify-content: space-around;
+    width: 60%;
+    background-color: #2A3335;
+}
+h4{
+    background-color: #2A3335;
+}
+
+.skills{
+    color: antiquewhite;
+    margin-left: 30px;
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    height: auto;
+    width: auto;
+    
+}
+
+#home:hover{ border: 2px solid white;}
+#about:hover{ border: 2px solid white;}
+#contact:hover{ border: 2px solid white; }
+#project:hover{ border: 2px solid white;
+}
